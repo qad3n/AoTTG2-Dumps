@@ -1,8 +1,7 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.IO.Compression;
-using System.Text;
+using ApplicationManagers;
+using CustomLogic;
+using Events;
 using GameManagers;
 using Photon.Pun;
 using Photon.Realtime;
@@ -13,37 +12,47 @@ namespace Map
 {
     internal class CustomLogicTransfer : MonoBehaviour
     {
-        private const byte MsgLogicStart = 0;
-        private const byte MsgLogicBody = 1;
-        private const byte MsgLogicEnd = 2;
-        private const int ChunkSize = 10000; // bytes per photon rpc chunk
         private const float ChunkInterval = 0.5f; // seconds between chunks
 
         public static bool LogicTransferReady;
         public static string LogicHash;
         private static CustomLogicTransfer _instance;
-        private static List<byte> _logicScriptCompressed;
-        private static List<byte[][]> _logicTransferData;
+        private static readonly CustomLogicTransferData _transferData = new CustomLogicTransferData();
+        private static readonly ContentTransferChangeTracker _changeTracker = new ContentTransferChangeTracker();
 
-        public static void CreateTransferData()
+        public static void Init()
         {
-            LogicHash = Util.CreateMD5(CustomLogicManager.Logic);
-            byte[] compressed = DataCompressors.Brotli.CompressString(CustomLogicManager.Logic, CompressionLevel.Fastest);
-            _logicScriptCompressed = new List<byte>(compressed);
-            _logicTransferData = new List<byte[][]>();
+            _instance = SingletonFactory.CreateSingleton(_instance);
+            EventManager.OnPreLoadScene += OnPreLoadScene;
+        }
 
-            // when compressed is empty only the start frame is queued and no end frame is ever sent
-            // so a receiver of empty logic never runs the terminator branch that finalizes it
-            _logicTransferData.Add(new byte[][] { new byte[] { MsgLogicStart }, new byte[0] });
-            for (int i = 0; i < compressed.Length; i += ChunkSize)
+        private static void OnPreLoadScene(SceneName sceneName)
+        {
+            _instance.StopAllCoroutines();
+            _transferData.Reset();
+            LogicTransferReady = false;
+        }
+
+        public static void Start(string modeName)
+        {
+            string hash = Util.CreateMD5(CustomLogicManager.Logic);
+            bool changed = _changeTracker.Update(modeName, hash);
+            LogicHash = hash;
+            _transferData.Prepare(CustomLogicManager.Logic, LogicHash);
+            foreach (Player player in PhotonNetwork.PlayerListOthers)
             {
-                int count = Math.Min(ChunkSize, compressed.Length - i);
-                byte[] chunk = _logicScriptCompressed.GetRange(i, count).ToArray();
-                if (i + ChunkSize >= compressed.Length)
-                    _logicTransferData.Add(new byte[][] { new byte[] { MsgLogicEnd }, chunk, Encoding.UTF8.GetBytes(LogicHash) });
+                if (!changed && player.GetStringProperty(PlayerProperty.CustomLogicHash) == hash)
+                    RPCManager.PhotonView.RPC("LoadCachedLogicRPC", player, new object[0]);
                 else
-                    _logicTransferData.Add(new byte[][] { new byte[] { MsgLogicBody }, chunk });
+                    Transfer(player);
             }
+            LogicTransferReady = true;
+        }
+
+        public static void UseBuiltin(string modeName)
+        {
+            _changeTracker.Update(modeName, string.Empty);
+            LogicHash = string.Empty;
         }
 
         public static void Transfer(Player player)
@@ -53,9 +62,9 @@ namespace Map
 
         private static IEnumerator TransferLogicData(Player player)
         {
-            for (int i = 0; i < _logicTransferData.Count; i++)
+            for (int i = 0; i < _transferData.Messages.Count; i++)
             {
-                RPCManager.PhotonView.RPC("TransferLogicRPC", player, _logicTransferData[i], i, _logicTransferData.Count);
+                RPCManager.PhotonView.RPC("TransferLogicRPC", player, _transferData.Messages[i], i, _transferData.Messages.Count);
                 yield return new WaitForSeconds(ChunkInterval);
             }
         }
@@ -64,19 +73,11 @@ namespace Map
         {
             if (info.Sender == null || !info.Sender.IsMasterClient)
                 return;
-            byte header = byteArr[0][0];
-            if (header == MsgLogicStart)
+            if (_transferData.TryReceive(byteArr, msgNumber, msgTotal, out string logic, out string hash))
             {
-                CustomLogicManager.Logic = string.Empty;
-                _logicScriptCompressed = new List<byte>();
-            }
-            if (byteArr.Length >= 2)
-                _logicScriptCompressed.AddRange(byteArr[1]);
-            if (header == MsgLogicEnd)
-            {
-                CustomLogicManager.Logic = DataCompressors.Brotli.DecompressString(_logicScriptCompressed.ToArray(),
-                    Algorithms.CompressionAlgorithm.DefaultBufferSize, Algorithms.CompressionAlgorithm.DefaultMaxSize);
-                LogicHash = Encoding.UTF8.GetString(byteArr[2]);
+                CustomLogicManager.Logic = logic;
+                LogicHash = hash;
+                CustomLogicManager.LogicHash = LogicHash;
                 CustomLogicManager.FinishLoadLogic();
             }
         }
