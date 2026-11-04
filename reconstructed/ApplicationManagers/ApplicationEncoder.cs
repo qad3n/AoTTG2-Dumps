@@ -1,7 +1,6 @@
 using System;
 using System.Net;
 using System.Text;
-using Utility;
 
 namespace ApplicationManagers
 {
@@ -66,7 +65,7 @@ namespace ApplicationManagers
         {
             if (text == string.Empty)
                 return Array.Empty<byte>();
-            return CLZF2.Compress(Encoding.UTF8.GetBytes(text));
+            return Encoding.UTF8.GetBytes(text);
         }
 
         private static string Compress3(string text)
