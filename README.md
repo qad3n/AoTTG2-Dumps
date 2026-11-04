@@ -6,6 +6,12 @@ The game is built with IL2CPP, so a lot of the original names are stripped out. 
 
 ---
 
+### il2cpp/
+
+Code for decrypting `global-metadata.dat` and recovering the renamed `il2cpp_*` exports so dumpers can read the game. It works for other IL2CPP games too. See `il2cpp/README.md`.
+
+---
+
 ### reconstructed/
 
 Readable C# for the game's encoding, compression and networking code, rebuilt from the IL2CPP stubs and the Ghidra output. The original namespaces and layout are kept.
