@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CustomLogic;
 using GameManagers;
 using PatreonEffects;
@@ -104,17 +105,22 @@ namespace Characters
         {
             if (info.Sender != null && info.Sender != Cache.PhotonView.Owner)
                 return;
-            if (!SoundsEnabled)
+            if (!Cache.AudioSources.TryGetValue(sound, out AudioSource source))
                 return;
-            if (!Cache.AudioSources.ContainsKey(sound))
-                return;
-            AudioSource source = Cache.AudioSources[sound];
-            if (time > 0f)
+            if (_soundFades != null && _soundFades.TryGetValue(source, out Coroutine fade))
             {
-                StartCoroutine(FadeSoundOverTime(source, volume - source.volume, time));
+                StopCoroutine(fade);
+                _soundFades.Remove(source);
+            }
+            // a nan time takes the fade path
+            if (time <= 0f || !SoundsEnabled)
+            {
+                source.volume = volume;
                 return;
             }
-            source.volume = volume;
+            if (_soundFades == null)
+                _soundFades = new Dictionary<AudioSource, Coroutine>();
+            _soundFades[source] = StartCoroutine(FadeSoundOverTime(source, volume, time));
         }
 
         [PunRPC]

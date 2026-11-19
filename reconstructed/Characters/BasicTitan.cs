@@ -78,6 +78,7 @@ namespace Characters
             hardenedNape.SetActive(false);
         }
 
+        // the game inlines this into both warded rpcs
         private void StopWardedWeakSpotEffects()
         {
             BasicCache.WardedWeakSpotForearmL.Stop(true);
@@ -194,21 +195,41 @@ namespace Characters
             if (info.Sender != Cache.PhotonView.Owner || _headDetached)
                 return;
             _headDetached = true;
+            foreach (Human human in _inGameManager.Humans)
+            {
+                if (!human.IsMine())
+                    continue;
+                if (human.HookLeft != null)
+                    human.HookLeft.MoveHookParents(BasicCache.Head, BasicCache.Neck);
+                if (human.HookRight != null)
+                    human.HookRight.MoveHookParents(BasicCache.Head, BasicCache.Neck);
+            }
             BasicCache.NapeBlood.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             SkinnedMeshRenderer head = Cache.Transform.Find("Head").GetComponent<SkinnedMeshRenderer>();
             bool decapitationBlood = false;
             if (EffectsEnabled)
             {
                 decapitationBlood = SettingsManager.GraphicsSettings.NapeBloodEnabled.Value;
-                ParticleSystem blood = decapitationBlood ? BasicCache.DecapitationBlood : null;
-                float fallDelay = Mathf.Max(0f, _deathVisualStartTime + HeadFallDuration - Time.time);
-                TitanLimbFallEffect.PlayHead(head, BasicCache.Head, launch + GetVelocity(), blood, fallDelay);
+                if (GoreEnabled)
+                {
+                    TitanLimbFallEffect.PlayHead(head, BasicCache.Head, launch + GetVelocity(), decapitationBlood ? BasicCache.DecapitationBlood : null,
+                        Mathf.Max(0f, _deathVisualStartTime + HeadFallDuration - Time.time));
+                }
             }
             head.enabled = false;
             foreach (Renderer renderer in BasicCache.Head.GetComponentsInChildren<Renderer>())
                 renderer.enabled = false;
             if (decapitationBlood)
                 StartCoroutine(PlayDecapitationBlood());
+        }
+
+        [PunRPC]
+        public void PlayNapeChunkRPC(Vector3 velocity, PhotonMessageInfo info)
+        {
+            if (info.Sender != Cache.PhotonView.Owner || _napeChunkPlayed || !EffectsEnabled || !GoreEnabled)
+                return;
+            _napeChunkPlayed = true;
+            TitanNapeChunkEffect.Play(BasicCache.Neck, Size, velocity);
         }
     }
 }

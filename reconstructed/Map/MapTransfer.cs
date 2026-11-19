@@ -18,11 +18,6 @@ namespace Map
 {
     internal class MapTransfer : MonoBehaviour
     {
-        private const byte MsgMapStart = 0;
-        private const byte MsgMapBody = 1;
-        private const byte MsgLogicBody = 2;
-        private const byte MsgMapEnd = 3;
-        private const int CompressDeltaRows = 22; // leading fields delta encoded per csv row
         private const int ChunkSize = 10000;
         private const int MaxHashLength = 1024;
         private const char RowDelimiter = ';';
@@ -33,10 +28,16 @@ namespace Map
         public static string MapHash;
         public static string MapName;
         private static MapTransfer _instance;
+        private static readonly byte MsgMapStart = 0;
+        private static readonly byte MsgMapBody = 1;
+        private static readonly byte MsgLogicBody = 2;
+        private static readonly byte MsgMapEnd = 3;
+        // leading fields delta encoded per csv row
+        private static int CompressDeltaRows = 22;
         private static JSONNode _mapScriptSymbolTable;
-        private static List<byte> _mapScriptCompressed;
+        public static List<byte> _mapScriptCompressed;
         private static List<byte[][]> _mapTransferData;
-        private static List<byte> _logicScriptCompressed;
+        public static List<byte> _logicScriptCompressed;
         private static readonly ContentTransferChangeTracker _changeTracker = new ContentTransferChangeTracker();
         private static readonly OrderedTransferReceiver _receiver = new OrderedTransferReceiver();
         private static bool _receivingLogic;
@@ -77,7 +78,7 @@ namespace Map
             MapHash = string.Empty;
         }
 
-        public static void CreateTransferData()
+        private static void CreateTransferData()
         {
             string serialize = MapManager.MapScript.Objects.Serialize();
             string logic = MapManager.MapScript.Logic;
@@ -105,6 +106,7 @@ namespace Map
             _mapTransferData.Add(new byte[][] { new byte[] { MsgMapEnd }, Encoding.UTF8.GetBytes(MapHash) });
         }
 
+        // the game inlines this loop at both call sites
         private static void AddBodyChunks(byte header, List<byte> data)
         {
             for (int i = 0; i < data.Count; i += ChunkSize)
@@ -140,18 +142,14 @@ namespace Map
         {
             if (message.Length < 2 || message[0].Length != 1)
                 return false;
-            switch (message[0][0])
-            {
-                case MsgMapStart:
-                    return messageIndex == 0 && message.Length == 5;
-                case MsgMapBody:
-                case MsgLogicBody:
-                    return messageIndex > 0 && messageIndex < messageTotal - 1 && message.Length == 2 && message[1].Length <= ChunkSize;
-                case MsgMapEnd:
-                    return messageIndex == messageTotal - 1 && message.Length == 2 && message[1].Length <= MaxHashLength;
-                default:
-                    return false;
-            }
+            byte header = message[0][0];
+            if (header == MsgMapStart)
+                return messageIndex == 0 && message.Length == 5;
+            if (header == MsgMapBody || header == MsgLogicBody)
+                return messageIndex > 0 && messageIndex < messageTotal - 1 && message.Length == 2 && message[1].Length <= ChunkSize;
+            if (header == MsgMapEnd)
+                return messageIndex == messageTotal - 1 && message.Length == 2 && message[1].Length <= MaxHashLength;
+            return false;
         }
 
         private static void ProcessMessage(byte[][] message, int messageIndex, int messageTotal)
@@ -161,40 +159,41 @@ namespace Map
             int bufferSize = CompressionAlgorithm.DefaultBufferSize;
             long maxSize = CompressionAlgorithm.DefaultMaxSize;
 
-            switch (header)
+            if (header == MsgMapStart)
             {
-                case MsgMapStart:
-                    MapHash = string.Empty;
-                    PhotonNetwork.LocalPlayer.SetCustomProperty(PlayerProperty.CustomMapHash, string.Empty);
-                    MapManager.MapScript = new MapScript();
-                    MapManager.MapScript.Options.Deserialize(DataCompressors.Brotli.DecompressString(message[1], bufferSize, maxSize));
-                    MapManager.MapScript.CustomAssets.Deserialize(DataCompressors.Brotli.DecompressString(message[2], bufferSize, maxSize));
-                    MapManager.MapScript.Weather.DeserializeFromJsonString(DataCompressors.Brotli.DecompressString(message[3], bufferSize, maxSize));
-                    _mapScriptSymbolTable = JSON.Parse(DataCompressors.Brotli.DecompressString(message[4], bufferSize, maxSize));
-                    _mapScriptCompressed = new List<byte>();
-                    _logicScriptCompressed = new List<byte>();
-                    _receivingLogic = false;
-                    break;
-                case MsgMapBody:
-                    if (_receivingLogic)
-                        throw new InvalidOperationException("Map data received after map logic data.");
-                    _mapScriptCompressed.AddRange(message[1]);
-                    break;
-                case MsgLogicBody:
-                    _receivingLogic = true;
-                    _logicScriptCompressed.AddRange(message[1]);
-                    break;
-                case MsgMapEnd:
-                    if (_mapScriptCompressed.Count > 0)
-                    {
-                        string objects = CSVCompression.Decompress(_mapScriptCompressed.ToArray(), _mapScriptSymbolTable, CompressDeltaRows, RowDelimiter, FieldDelimiter);
-                        MapManager.MapScript.Objects.Deserialize(objects);
-                    }
-                    if (_logicScriptCompressed.Count > 0)
-                        MapManager.MapScript.Logic = DataCompressors.Brotli.DecompressString(_logicScriptCompressed.ToArray(), bufferSize, maxSize);
-                    MapHash = Encoding.UTF8.GetString(message[1]);
-                    MapManager.LoadMap(true);
-                    break;
+                MapHash = string.Empty;
+                PhotonNetwork.LocalPlayer.SetCustomProperty(PlayerProperty.CustomMapHash, string.Empty);
+                MapManager.MapScript = new MapScript();
+                MapManager.MapScript.Options.Deserialize(DataCompressors.Brotli.DecompressString(message[1], bufferSize, maxSize));
+                MapManager.MapScript.CustomAssets.Deserialize(DataCompressors.Brotli.DecompressString(message[2], bufferSize, maxSize));
+                MapManager.MapScript.Weather.DeserializeFromJsonString(DataCompressors.Brotli.DecompressString(message[3], bufferSize, maxSize));
+                _mapScriptSymbolTable = JSON.Parse(DataCompressors.Brotli.DecompressString(message[4], bufferSize, maxSize));
+                _mapScriptCompressed = new List<byte>();
+                _logicScriptCompressed = new List<byte>();
+                _receivingLogic = false;
+            }
+            else if (header == MsgMapBody)
+            {
+                if (_receivingLogic)
+                    throw new InvalidOperationException("Map data received after map logic data.");
+                _mapScriptCompressed.AddRange(message[1]);
+            }
+            else if (header == MsgLogicBody)
+            {
+                _receivingLogic = true;
+                _logicScriptCompressed.AddRange(message[1]);
+            }
+            else if (header == MsgMapEnd)
+            {
+                if (_mapScriptCompressed.Count > 0)
+                {
+                    string objects = CSVCompression.Decompress(_mapScriptCompressed.ToArray(), _mapScriptSymbolTable, CompressDeltaRows, RowDelimiter, FieldDelimiter);
+                    MapManager.MapScript.Objects.DeserializeSkippingErrors(objects, MapManager.MapScript.Errors);
+                }
+                if (_logicScriptCompressed.Count > 0)
+                    MapManager.MapScript.Logic = DataCompressors.Brotli.DecompressString(_logicScriptCompressed.ToArray(), bufferSize, maxSize);
+                MapHash = Encoding.UTF8.GetString(message[1]);
+                MapManager.LoadMap(true);
             }
         }
 

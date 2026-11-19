@@ -28,6 +28,7 @@ namespace Utility.Algorithms
             return Encoding.UTF8.GetString(Decompress(data, bufferSize, maxSize));
         }
 
+        // the game repeats this body inline in each algorithm class
         protected static byte[] CompressStream(Func<Stream, Stream> createCompressor, byte[] data)
         {
             using (MemoryStream output = new MemoryStream())
@@ -38,6 +39,7 @@ namespace Utility.Algorithms
             }
         }
 
+        // the game repeats this body inline in each algorithm class
         protected static byte[] DecompressStream(Func<Stream, Stream> createDecompressor, byte[] data, int bufferSize, long maxSize)
         {
             using (MemoryStream output = new MemoryStream())

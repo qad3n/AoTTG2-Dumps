@@ -59,5 +59,15 @@ namespace Characters
             if (settings.SkinsEnabled.Value && (!settings.SkinsLocal.Value || Cache.PhotonView.IsMine))
                 StartCoroutine(_customSkinLoader.LoadSkinsFromRPC(new object[] { url }));
         }
+
+        [PunRPC]
+        public void StartDeathVisualsRPC(float delay, PhotonMessageInfo info)
+        {
+            if (info.Sender != Cache.PhotonView.Owner || _deathVisualsStarted)
+                return;
+            _deathVisualsStarted = true;
+            _deathVisualsTime = Time.time + delay - Mathf.Max(0f, (float)(PhotonNetwork.Time - info.SentServerTime));
+            Animation.SetCullingType(true);
+        }
     }
 }

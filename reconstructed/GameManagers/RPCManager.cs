@@ -99,14 +99,6 @@ namespace GameManagers
         }
 
         [PunRPC]
-        public void LoadLevelSkinRPC(string indices, string urls1, string urls2, PhotonMessageInfo info)
-        {
-            InGameManager manager = (InGameManager)SceneLoader.CurrentGameManager;
-            if (info.Sender == PhotonNetwork.MasterClient)
-                manager.StartCoroutine(manager.OnLoadLevelSkinRPC(indices, urls1, urls2));
-        }
-
-        [PunRPC]
         public void RestartGameRPC(PhotonMessageInfo info)
         {
             InGameManager.OnRestartGameRPC(info);

@@ -4,7 +4,6 @@ using Events;
 using GameManagers;
 using Photon.Pun;
 using Photon.Realtime;
-using Settings;
 using UnityEngine;
 using Utility;
 
@@ -45,10 +44,6 @@ namespace Anticheat
             return filters[eventType].CheckEvent(data);
         }
 
-        private static bool HasModPassword()
-        {
-            return SettingsManager.MultiplayerSettings.ModPassword.Value != string.Empty;
-        }
 
         public static void KickPlayer(Player player, bool ban = false, string reason = "")
         {

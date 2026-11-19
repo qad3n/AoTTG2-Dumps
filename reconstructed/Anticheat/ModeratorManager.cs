@@ -297,6 +297,7 @@ namespace Anticheat
             localStatus?.Invoke(text);
         }
 
+        // the game inlines this at each call site
         private static Dictionary<byte, object> CopyParameters(EventData photonEvent)
         {
             Dictionary<byte, object> data = new Dictionary<byte, object>();
@@ -340,11 +341,13 @@ namespace Anticheat
             return defaultValue;
         }
 
+        // the game inlines this at each call site
         private static string ReadString(Dictionary<byte, object> data, byte key)
         {
             return data.ContainsKey(key) ? (string)data[key] : string.Empty;
         }
 
+        // the game inlines this at each call site
         private static int ReadIntOrZero(Dictionary<byte, object> data, byte key)
         {
             return data.ContainsKey(key) ? (int)data[key] : 0;
@@ -378,6 +381,7 @@ namespace Anticheat
             PlayerListChanged?.Invoke();
         }
 
+        // the game inlines this at each call site
         private static void AddPlayerEntries(Dictionary<byte, object>[] entries)
         {
             if (entries == null)
@@ -412,6 +416,7 @@ namespace Anticheat
             PlayerListChanged?.Invoke();
         }
 
+        // the game inlines this at each call site
         private static bool ReadResult(Dictionary<byte, object> data, Action<string> localStatus)
         {
             bool success = data.ContainsKey(ParamSuccess) && (bool)data[ParamSuccess];
@@ -474,6 +479,7 @@ namespace Anticheat
             });
         }
 
+        // the game inlines this at each call site
         private static bool TryGetBanTarget(PlayerEntry player, bool ipBan, Action<string> localStatus, out string target, out int targetBy)
         {
             target = null;

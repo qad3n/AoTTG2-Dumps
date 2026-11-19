@@ -63,6 +63,7 @@ namespace Characters
             Size = size;
             SetSizeParticles(size);
             SetSizeAnimations(size);
+            SetSizeHead(size);
             ScaleSounds(size);
             InGameCamera camera = (InGameCamera)SceneLoader.CurrentCamera;
             if (camera._follow == this)

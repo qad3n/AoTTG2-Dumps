@@ -54,13 +54,7 @@ namespace Characters
             if (!IsMine() || transfer == null || transfer.Id != transferId || transfer.Recipient != info.Sender || !float.IsFinite(gas)
                 || gas < 0f || gas > transfer.Gas || ammo < 0 || ammo > transfer.Ammo)
                 return;
-            _supplyTransfer = null;
-            if (Dead || !FinishSetup)
-                return;
-            Stats.CurrentGas += Math.Min(transfer.Gas - gas, Math.Max(0f, Stats.MaxGas - Stats.CurrentGas));
-            if (Weapon == transfer.Weapon)
-                AddSupplyAmmo(Weapon, transfer.Ammo - ammo, transfer.RemovedRounds);
-            RefreshSupplyWeapon();
+            CompleteSupplyTransfer(gas, ammo);
         }
 
         [PunRPC]
@@ -80,10 +74,7 @@ namespace Characters
                 Setup.DeleteDie();
             GetComponent<CapsuleCollider>().enabled = false;
             if (IsMine())
-            {
                 FalseAttack();
-                SetCarrierTriggerCollider(false);
-            }
         }
 
         [PunRPC]
@@ -343,6 +334,7 @@ namespace Characters
                 Setup._part_blade_r.SetActive(hasRight && !Sheathed);
         }
 
+        // the game inlines this check into both hook rpcs
         private bool CanBeHookedBy(BaseCharacter human, PhotonMessageInfo info)
         {
             return IsMine() && human != null && !Dead && human.Cache.PhotonView.Owner == info.Sender && _state != HumanState.Grab
@@ -482,6 +474,7 @@ namespace Characters
             SetBladeEffectActive(Setup.TierEffects[tier], true);
         }
 
+        // the game inlines this into ToggleBladeFireRPC
         private void SetBladeEffectActive(string effect, bool active)
         {
             Transform left = Setup._part_blade_l.transform.Find(effect);

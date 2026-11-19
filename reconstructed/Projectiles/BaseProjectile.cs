@@ -13,8 +13,11 @@ namespace Projectiles
                 return;
             if (charViewId != -1)
             {
-                _owner = PhotonView.Find(charViewId).GetComponent<BaseCharacter>();
-                _team = _owner.Team;
+                PhotonView view = PhotonView.Find(charViewId);
+                if (view != null)
+                    _owner = view.GetComponent<BaseCharacter>();
+                if (_owner != null)
+                    _team = _owner.Team;
             }
             SetupSettings(settings);
             RegisterObjects();
@@ -27,6 +30,7 @@ namespace Projectiles
             }
         }
 
+        // the game inlines this loop at both call sites
         private void IgnoreCollisions(BaseCharacter character)
         {
             foreach (Collider c1 in character.Cache.Colliders)

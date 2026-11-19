@@ -1,14 +1,10 @@
-using Effects;
 using Photon.Pun;
 using Settings;
-using UnityEngine;
 
 namespace Characters
 {
     internal partial class WallColossalShifter : BaseShifter
     {
-        private const float SeverBloodScale = 100f;
-
         [PunRPC]
         public void SetLeftHandHealthRPC(int currentHealth, int maxHealth, PhotonMessageInfo info)
         {
@@ -34,8 +30,7 @@ namespace Characters
         {
             if (info.Sender != photonView.Owner)
                 return;
-            _leftHandState = (ColossalHandState)state;
-            ApplyHandState(_leftHandState, ColossalCache.HandLHitbox, ColossalCache.LeftHandSteam);
+            ApplyLeftHandState((ColossalHandState)state);
         }
 
         [PunRPC]
@@ -43,26 +38,7 @@ namespace Characters
         {
             if (info.Sender != photonView.Owner)
                 return;
-            _rightHandState = (ColossalHandState)state;
-            ApplyHandState(_rightHandState, ColossalCache.HandRHitbox, ColossalCache.RightHandSteam);
-        }
-
-        private void ApplyHandState(ColossalHandState state, BaseHitbox hitbox, ParticleSystem steam)
-        {
-            switch (state)
-            {
-                case ColossalHandState.Healthy:
-                case ColossalHandState.Damaged:
-                    ToggleParticles(steam, false);
-                    break;
-                case ColossalHandState.Severed:
-                    EffectSpawner.Spawn(EffectPrefabs.Blood1, hitbox.transform.position, Quaternion.Euler(-90f, 0f, 0f), Size * SeverBloodScale, true);
-                    ToggleParticles(steam, EffectsEnabled);
-                    break;
-                case ColossalHandState.Recovering:
-                    ToggleParticles(steam, EffectsEnabled);
-                    break;
-            }
+            ApplyRightHandState((ColossalHandState)state);
         }
 
         [PunRPC]
@@ -121,6 +97,7 @@ namespace Characters
                 SetCurrentRightHandHealth(CurrentRightHandHealth - damage);
         }
 
+        // the game inlines this check into GetHitRPC
         private static bool IsHandDamageable(ColossalHandState state)
         {
             return state == ColossalHandState.Healthy || state == ColossalHandState.Damaged;
